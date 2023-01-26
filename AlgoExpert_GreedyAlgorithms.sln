@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumWaitingTime", "MinimumWaitingTime\MinimumWaitingTime.csproj", "{A8CBFBFB-5009-4B5E-AE1A-6361FBF7E9EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumWaitingTime", "MinimumWaitingTime\MinimumWaitingTime.csproj", "{A8CBFBFB-5009-4B5E-AE1A-6361FBF7E9EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPhotos", "ClassPhotos\ClassPhotos.csproj", "{B045E15C-C42D-4B73-80AB-5566B76D4170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassPhotos", "ClassPhotos\ClassPhotos.csproj", "{B045E15C-C42D-4B73-80AB-5566B76D4170}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{F033E38C-05E3-48F3-8C3E-AB8651BA0ED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{373C9F0C-37F9-4437-BC2C-2BBB7AD74227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAssignment", "TaskAssignment\TaskAssignment.csproj", "{6CFDC633-817B-44E6-BEC8-2D27CEE8B039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{B045E15C-C42D-4B73-80AB-5566B76D4170}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B045E15C-C42D-4B73-80AB-5566B76D4170}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B045E15C-C42D-4B73-80AB-5566B76D4170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFDC633-817B-44E6-BEC8-2D27CEE8B039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFDC633-817B-44E6-BEC8-2D27CEE8B039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFDC633-817B-44E6-BEC8-2D27CEE8B039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFDC633-817B-44E6-BEC8-2D27CEE8B039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A8CBFBFB-5009-4B5E-AE1A-6361FBF7E9EF} = {F033E38C-05E3-48F3-8C3E-AB8651BA0ED5}
 		{B045E15C-C42D-4B73-80AB-5566B76D4170} = {F033E38C-05E3-48F3-8C3E-AB8651BA0ED5}
+		{6CFDC633-817B-44E6-BEC8-2D27CEE8B039} = {373C9F0C-37F9-4437-BC2C-2BBB7AD74227}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9FB22CF0-1E6F-46F5-8879-F690BD637A03}
