@@ -10,6 +10,8 @@ Dictionary<string, int>[] jobs = new Dictionary<string, int>[]
     };
 
 Console.WriteLine($"the optimal value is : {OptimalFreelancing(jobs)} ");
+
+//Time O(n)  , Space => O(1) => payment array has constant size
 int OptimalFreelancing(Dictionary<string, int>[] jobs)
 {
     int[] payment = new int[7];
